@@ -1,6 +1,5 @@
 #  Expense Tracker API
 
-<<<<<<< HEAD
 Простое REST API для отслеживания расходов.
 
 ##  Технологии
@@ -20,9 +19,6 @@ MySQL
 Ruff (линтер)
 
 Pytest 
-=======
-Простое REST API для отслеживания расходов. Реализовано на FastAPI + SQLAlchemy + Alembic.
->>>>>>> 4ad488c86271d4c19f1cb64b656e1ec823440cef
 
 ##  Возможности
 
@@ -32,11 +28,9 @@ Pytest
 - Миграции через Alembic
 - Swagger-документация на `/docs`
 
-<<<<<<< HEAD
-## Установка и запуск
-=======
+
 ##  Установка и запуск
->>>>>>> 4ad488c86271d4c19f1cb64b656e1ec823440cef
+
 
 1. Клонируй репозиторий:
    ```bash
@@ -55,4 +49,4 @@ Pytest
 =======
    ```bash
    uvicorn app.main:app --reload
->>>>>>> 4ad488c86271d4c19f1cb64b656e1ec823440cef
+

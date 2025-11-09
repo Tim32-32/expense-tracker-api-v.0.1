@@ -1,6 +1,7 @@
 # Python
 __pycache__/
 *.py[cod]
+<<<<<<< HEAD
 *.pyo
 
 # Virtual environments
@@ -26,3 +27,31 @@ alembic/versions/*
 
 # Database files (если имеются)
 *.db
+=======
+*.log
+
+# Virtual environment
+.venv/
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Alembic
+alembic/versions/
+
+# Test artifacts
+.coverage
+.pytest_cache/
+htmlcov/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+>>>>>>> 4ad488c86271d4c19f1cb64b656e1ec823440cef
